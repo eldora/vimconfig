@@ -43,10 +43,7 @@ filetype plugin indent on     " required!
 "==========================
 "= tags 등록
 "==========================
-set tags=./tags
-"set tags+=/home/ygpark/bin/ndk/platforms/android-14/arch-arm/usr/include/tags
-"set tags+=~/repo/iamroot-linux-arm10c/tags
-"set tags+=~/.vimtags/cpp
+set tags=./tags;/
 
 "==========================
 "= 기본 설정
@@ -56,9 +53,9 @@ set ruler			" 화면 우측 하단에 현재 커서의 위치(줄,칸)를 보여
 set number			" 줄번호 출력
 set modifiable
 set hlsearch			" Highlight Search
-set ts=8			" tab stop - tab 크기
-set sw=8			" shift width - shift 크기 조절
-set sts=8			" soft tab stop - tab 이동 크기
+set ts=2			" tab stop - tab 크기
+set sw=2			" shift width - shift 크기 조절
+set sts=2			" soft tab stop - tab 이동 크기
 set incsearch
 set ignorecase
 set printoptions=portrait:n,wrap:n,duplex:off
